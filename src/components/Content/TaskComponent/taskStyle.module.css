@@ -1,0 +1,45 @@
+.taskStyle, .taskStyle_done{
+    border-radius: 10px;
+    background-color: khaki;
+    margin: 5px;
+    transition: 0.5s;
+    display: block;
+    cursor: pointer;
+}
+
+.taskStyle_done span, .taskStyle span{
+    cursor: pointer;
+    padding-left: 0;
+}
+
+.taskStyle_done button, .taskStyle button{
+    float: right;
+}
+
+.taskStyle_done{
+    display: block;
+    background-color: darkkhaki;
+    margin: 5px;
+    cursor: pointer;
+    text-decoration: line-through;
+    transition: 0.5s;
+    cursor: pointer;
+    color: #7B8C86;
+}
+
+.taskStyle_done button, .taskStyle button{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 90px;
+    height: 21px;
+    margin-right: 10px;
+    background: linear-gradient(to right, black 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+.taskStyle_done button:hover, .taskStyle button:hover {
+    background-position: left bottom;
+    color: honeydew;
+}

@@ -1,0 +1,19 @@
+.routingBox div{
+    height: 733px;
+    margin: 5px auto;
+    width: 70%;
+    border-radius: 15px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1),
+    -23px 0 20px -23px rgba(0, 0, 0, .8),
+    23px 0 20px -23px rgba(0, 0, 0, .8),
+    0 0 40px rgba(0, 0, 0, .1) inset;
+}
+
+.contentStyle div h1{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contentStyle{
+    background-color: #AABFB2;
+}

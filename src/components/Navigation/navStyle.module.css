@@ -1,0 +1,24 @@
+.navigationStyle{
+    background-color: #AABFB2;
+    grid-area: nav;
+}
+
+.navigationStyle div a{
+    text-decoration: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: black;
+}
+
+.navigationStyle div a.active{
+    background-color: #7B8C86;
+    padding-right: 90px;
+    transition: 0.5s;
+    border-radius: 10px;
+    color: honeydew;
+}
+
+.navigationStyle div{
+    margin-left: 15px;
+    margin-bottom: 10px;
+}

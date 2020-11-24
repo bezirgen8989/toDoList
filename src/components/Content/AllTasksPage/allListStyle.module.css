@@ -1,0 +1,10 @@
+.allListStyle{
+    background-color: #7B8C86;
+    margin: 5px;
+}
+
+.allListStyle_scroll{
+    background-color: #7B8C86;
+    margin: 5px;
+    overflow-y: scroll;
+}
